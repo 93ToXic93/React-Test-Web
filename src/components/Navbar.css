@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar-container {
+  display: flex;
+  padding-left: 40px;
+  padding-top: 40px;
+  height: 100px;
+}
+.HomeIcon {
+  padding-left: 13px;
+  padding-bottom: 2px;
+  font-size: 30px;
+}
+.HomeButton {
+  font-weight: bold;
+  width: 180px;
+  height: 50px;
+  font-size: 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 3px 3px 10px 2px gray;
+  transition: 0.3s;
+  font-family: "Courier New", Courier, monospace;
+}
+.HomeButton:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  width: 200px;
+  height: 60px;
+  margin-right: -20px;
+}
+.navbar {
+  background-image: url(./img/153303680_2221456447998579_386986701392511140_n.jpg);
+  box-shadow: 3px 3px 10px 2px rgb(96, 92, 92);
+}
+.ContactsButton {
+  font-weight: bold;
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 3px 3px 10px 2px gray;
+  transition: 0.3s;
+  margin-left: 970px;
+  font-family: "Courier New", Courier, monospace;
+}
+.ContactsButton:hover {
+  color: white;
+  background-color: black;
+  width: 199px;
+  height: 60px;
+  margin-right: -20px;
+}
+.MenuButton {
+  font-weight: bold;
+  width: 180px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 3px 3px 10px 2px gray;
+  transition: 0.3s;
+  margin-left: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.MenuButton:hover {
+  color: white;
+  background-color: black;
+  width: 200px;
+  height: 60px;
+  margin-right: -20px;
+}
+.IconK {
+  padding-left: 10px;
+}
+.locationButton {
+  font-weight: bold;
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 3px 3px 10px 2px gray;
+  transition: 0.3s;
+  margin-left: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.locationButton:hover{
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 60px;
+    margin-right: -20px;
+}
