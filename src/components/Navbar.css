@@ -5,9 +5,9 @@
 .navbar {
   background-image: url(./img/153303680_2221456447998579_386986701392511140_n.jpg);
   width: auto;
-  height: 200px;
+  height: 180px;
   font-family: "Courier New", Courier, monospace;
-  box-shadow: 5px 5px 10px 2px gray;
+  box-shadow: 5px 5px 10px 2px rgb(106, 106, 106);
 }
 .HomeButton {
   position: absolute;
