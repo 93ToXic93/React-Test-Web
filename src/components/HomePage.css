@@ -3,7 +3,8 @@
   margin: 0;
 }
 body {
-  background-color: rgb(218, 216, 216);
+  background-image: url(./img/cup-mug-steaming-smoke.jpg);
+  background-position: center;
 }
 .PromosContainer {
   display: inline-flex;
@@ -39,8 +40,10 @@ body {
   font-size: 0.6875rem;
   font-weight: 700;
   letter-spacing: 0.3rem;
-  position: relative;
+  position: absolute;
   margin-top: 80px;
+  right: 1350px;
+  top: 265px;
 
   cursor: pointer;
   -webkit-transition: all 1000ms cubic-bezier(0.89, 0, 0.14, 1); /* older webkit */
@@ -53,7 +56,8 @@ body {
     0.89,
     0,
     0.14,
-    1); /* older webkit */
+    1
+  ); /* older webkit */
   -webkit-transition-timing-function: cubic-bezier(0.89, -0.17, 0.14, 1.225);
   -moz-transition-timing-function: cubic-bezier(0.89, -0.17, 0.14, 1.225);
   -o-transition-timing-function: cubic-bezier(0.89, -0.17, 0.14, 1.225);
@@ -185,39 +189,113 @@ body {
 .btn-slice:hover:before {
   width: 130%;
 }
-.Salat1{
-    position: absolute;
-    width: 300px;
-    height: 150px;
-    right: 580px;
-    top: 280px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 10px 2px rgb(78, 78, 78);
+.Salat1 {
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  right: 580px;
+  top: 280px;
+  opacity: 0.5;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px 2px rgb(78, 78, 78);
 }
-.Salat2{
-    position: absolute;
-    width: 300px;
-    height: 150px;
-    right: 230px;
-    top: 280px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 10px 2px rgb(78, 78, 78);
+.Salat2 {
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  right: 230px;
+  top: 280px;
+  opacity: 0.5;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px 2px rgb(78, 78, 78);
 }
-.H-One{
-    position: absolute;
-    left: 1480px;
-    top: 450px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+.H-One {
+  position: absolute;
+  left: 1480px;
+  top: 450px;
+  text-shadow: 2px 2px 12px white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.H-Two{
-    position: absolute;
-    left: 1130px;
-    top: 450px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.H-Two {
+  position: absolute;
+  left: 1130px;
+  top: 450px;
+  text-shadow: 2px 2px 12px white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.H-Three{
-    position: absolute;
-    left: 650px;
-    top: 350px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.H-Three {
+  position: absolute;
+  left: 650px;
+  top: 350px;
+  text-shadow: 2px 2px 12px white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+.promoSnej {
+  position: absolute;
+  left: 1450px;
+  top: 300px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.promoGr {
+  position: absolute;
+  left: 1070px;
+  top: 300px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.Main .Promo > div {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.Main .Promo.show > div {
+  opacity: 1;
+}
+.PhotosContainer {
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+  margin-left: 550px;
+  margin-top: 100px;
+  background-color: rgb(248, 248, 248);
+}
+.PhotoLefRight {
+  display: inline-flex;
+}
+.Left {
+  position: absolute;
+  right: 1500px;
+  top: 780px;
+  font-size: 70px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: 0.3s;
+}
+.Left:hover {
+  font-size: 80px;
+}
+.Right {
+  position: absolute;
+  right: 370px;
+  top: 780px;
+  font-size: 70px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: 0.3s;
+}
+.Right:hover {
+  font-size: 80px;
+}
+.currentPhoto {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+

@@ -9,7 +9,6 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <div className="navbar-container">
           <Link to="/" className="HomeButton">
             HOME
             <FontAwesomeIcon className="HomeIcon" icon={faHouse} size="lg" />
@@ -23,7 +22,6 @@ function Navbar() {
           <Link className="locationButton">
             LOCATION <FontAwesomeIcon icon={faMapPin} bounce />
           </Link>
-        </div>
       </nav>
     </>
   );
