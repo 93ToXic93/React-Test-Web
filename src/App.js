@@ -7,7 +7,7 @@ import HomePage from './components/HomePage'
 function App() {
   return (
     <Router>
-      <div>
+      <div className="MainDiv">
       <Navbar />
 
       <Routes>
@@ -18,7 +18,13 @@ function App() {
 
       </div>
     
+    <footer className="Footer">
+
+      <h1>Заповядайте отново!</h1>
+
+    </footer>
     </Router>
+    
   );
 }
 
