@@ -270,7 +270,7 @@ body {
 .Left {
   position: absolute;
   right: 1500px;
-  top: 780px;
+  top: 850px;
   font-size: 70px;
   cursor: pointer;
   border: none;
@@ -283,7 +283,7 @@ body {
 .Right {
   position: absolute;
   right: 370px;
-  top: 780px;
+  top: 850px;
   font-size: 70px;
   cursor: pointer;
   border: none;
